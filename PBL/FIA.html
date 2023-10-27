@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FIA.css">
+</head>
+<body>
+  
+    <div class="main">
+        <button onclick="storeval()" id="sub">SUBMIT</button>
+        <div class="main1">
+            <h1>FINANCIAL INVESTMENT ADVISOR</h1>
+        </div>
+
+        <div class="main2">
+
+            <div class="info1">
+
+                <fieldset class="cont1">
+
+                    <legend>   BASIC INFORMATION   </legend>
+
+                    <div class="Q1">
+                        <div class="q1">
+
+                            <label for="q1">WHAT IS YOUR NAME</label><br>
+                        <input type="text" id="inputbox">
+
+
+                        </div>
+
+                        <div class="q2">
+
+                            <label for="q1">WHAT IS YOUR AGE</label><br>
+                            <input type="text" id="inputbox2">
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="Q1">
+                        <div class="q1">
+
+                            <label for="q1">ARE YOU MARRIED</label><br>
+                        <input type="text" id="inputbox3">
+
+
+                        </div>
+
+                        <div class="q2">
+
+                            <label for="q1">DO YOU HAVE ANY CHILDS</label><br>
+                            <input type="text" id="inputbox3">
+
+                        </div>
+                        
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+
+            <div class="info2">
+
+                <fieldset>
+
+                    <legend>   FAMILY INFORMATION   </legend>
+
+
+
+                </fieldset>
+
+            </div>
+
+        </div>
+        
+
+        
+
+    </div>
+
+
+
+
+
+
+    </div>
+</body>
+<script>
+    function storeval(){
+        let p=document.getElementById("inputbox").value;
+        alert(p);
+    }
+</script>
+</html>

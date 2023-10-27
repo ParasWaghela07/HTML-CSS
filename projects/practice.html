@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main1{
+            width: 700px;
+            height: 800px;
+            background-color: rgb(107, 107, 169);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2.5px solid black;
+        }
+        .main2{
+            width: 600px;
+            height: 700px;
+            background-color: rgb(52, 52, 113);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border: solid 2px black;
+            /* align-items: center;
+            justify-content: space-evenly; */
+        }
+        .sub1{
+            text-align: center;
+            margin-top: 50px;
+            color: white;
+            font-size: 22px;
+        }
+        .sub2{
+            margin-left: 50px;
+            margin-top: 10px;
+        }
+        .sub2 input{
+            width: 90%;
+            height: 40px;
+            border: none;
+            background-color:  rgb(52, 52, 113);
+            border-bottom: 2px solid rgb(107, 107, 169);
+        }
+        .sub2 label{
+            color:white;
+            font-size: 30px;
+        }
+        .sub3{
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        .sub3 input{
+            width: 90%;
+            height: 40px;
+            border: none;
+            background-color:  rgb(52, 52, 113);
+            border-bottom: 2px solid rgb(107, 107, 169);
+        }
+        .sub3 label{
+            color:white;
+            font-size: 30px;
+        }
+        .sub4{
+            margin-left: 45px;
+            margin-top: 50px;
+        }
+        .sub4 button{
+            width:92%;
+            height: 60px;
+            background-color:  rgb(107, 107, 169);
+            font-size: 25px;
+            color:white ;
+            border-radius: 5px;
+            border: solid 3px solid;
+        }
+        .sub5{
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            margin-left: 50px;
+            gap: 10px;
+
+        }
+        .sub5 p{
+            color: white;
+            font-size: 23px;
+        }
+        .sub5 a{
+            color: lightblue;
+            text-decoration: none;
+            font-size: 24px;
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main1">
+            <div class="main2">
+                <div class="sub1">
+                    <h1>PLEASE LOGIN</h1>
+                </div>
+                <div class="sub2">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" placeholder="abc@gmail.com">
+                </div>
+                <div class="sub3">
+                    <label for="pass">Password</label><br>
+                    <input type="password" id="pass">
+                </div>
+                <div class="sub4">
+                    <button>Login</button>
+                </div>
+                <div class="sub5">
+                    <p>Don't have an account?</p>
+                    <a href="#">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

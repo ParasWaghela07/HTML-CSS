@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.main{
+    background-color: #010608 !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main1{
+    height: 10vh;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-size: 25px;
+}
+
+.main2{
+    margin: 0px auto;
+    margin-top: 0.5%;
+    width: 98%;
+    height: 100%;
+    background-color: azure;
+
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+}
+
+.info1{
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1 fieldset{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    border: 2.2px solid black;
+}
+
+.info2{
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info2 fieldset{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    border: 2.2px solid black;
+}
+
+.Q1{
+    /* border: 1px solid black; */
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 500px; */
+}
+
+#inputbox{
+    background-color:rgb(237, 229, 229);
+    border: none;
+    height: 4.5vh;
+    width: 20vw;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#inputbox2{
+    background-color:rgb(237, 229, 229);
+    border: none;
+    height: 4.5vh;
+    width: 20vw;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#inputbox3{
+    background-color:rgb(237, 229, 229);
+    border: none;
+    height: 4.5vh;
+    width: 20vw;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#inputbox4{
+    background-color:rgb(237, 229, 229);
+    border: none;
+    height: 4.5vh;
+    width: 20vw;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.Q1 label{
+    font-size: 25px;
+}
+
+legend{
+    margin-left:1%;
+}
+
+#sub{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    
+}

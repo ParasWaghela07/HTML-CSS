@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con{
+    height: 100vh;
+    background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#navlist{
+    list-style-type: none;
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 110px;
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+#navlogo{
+    font-size: 55px;
+    color:white;
+   
+}
+#aja{
+    font-size: 35px;
+    display: flex;
+    gap: 50px;
+}
+a{
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+   
+}
+.footerbox{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    min-height: 40px;
+    font-size: 35px;
+    color: white;
+
+}
+
+.conbox{
+    width: 50%;
+    margin: auto;
+    /* border: solid black 3px; */
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 850px;
+    padding: 3rem;
+    box-shadow: 3px 3px 30px black;
+}
+
+.item{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.rytb img{
+    height: 250px;
+    width: 250px;
+    padding: 26px;
+}
+.leftb{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.leftb h2{
+    font-size: 2rem;
+
+}
+
+.ing{
+    font-size: 1.3rem;
+}
+.reci{
+    font-size: 1.3rem;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 360px;
+    height: 600px;
+    border-radius: 20px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding: 20px;
+}
+.bg{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image1{
+    border-radius: 20px;
+    height: 70%;
+}
+.box h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.box p{
+    font-size:15px;
+    font-weight: 900;
+}
